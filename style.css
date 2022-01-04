@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+
+.fh{
+    font-size: 60px;
+}
+.salam{
+    color: orange;
+}
+.section-flxi{
+    display: flex;
+    margin-bottom:150px;
+    padding: 20px;
+}
+.first-page{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.second-page{
+    background-image: url(images/dream-bg1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+.fsv1{
+    padding: 10px;
+}
+.fsv{
+    width: 50%;
+}
+.fsv img{
+    width: 85%;
+}
+.exp{
+    text-align: center;
+    font-size: 30px;
+    background-color: paleturquoise;
+    border-radius: 5px;
+    padding: 1px;
+}
+.fsv h3{
+    font-size: 30px;
+}
+.fsv h3{
+    color: orange;
+}
+.fvs-exp{
+    padding: 30px;
+    margin-left: 10px;
+    /*border-left:solid black 2px;*/
+    box-shadow: 5px 5px 3px gray;
+}
