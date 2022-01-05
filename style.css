@@ -10,6 +10,9 @@ body{
 .salam{
     color: orange;
 }
+.p-text{
+    text-align: justify;
+}
 .section-flxi{
     display: flex;
     margin-bottom:150px;
@@ -25,7 +28,7 @@ body{
     background-position: 100% 50%;
 }
 .fsv1{
-    padding: 10px;
+    padding: 20px;
 }
 .fsv{
     width: 50%;
@@ -36,9 +39,8 @@ body{
 .exp{
     text-align: center;
     font-size: 30px;
-    background-color: paleturquoise;
     border-radius: 5px;
-    padding: 1px;
+    background-image: linear-gradient(blue to skyblue);
 }
 .fsv h3{
     font-size: 30px;
@@ -48,7 +50,9 @@ body{
 }
 .fvs-exp{
     padding: 30px;
-    margin-left: 10px;
-    /*border-left:solid black 2px;*/
-    box-shadow: 5px 5px 3px gray;
+    margin: 30px;
+    border-left:solid black 6px;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 5px;
+
 }
