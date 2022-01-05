@@ -42,17 +42,31 @@ body{
     border-radius: 5px;
     background-image: linear-gradient(blue to skyblue);
 }
-.fsv h3{
-    font-size: 30px;
+.fvs-exp h3{
+    font-size: 35px;
 }
-.fsv h3{
+.fvs-exp h4{
     color: orange;
 }
 .fvs-exp{
-    padding: 30px;
-    margin: 30px;
-    border-left:solid black 6px;
-    box-shadow: 5px 5px 5px 5px gray;
+    width: 40%;
+    padding: 2%;
+    margin-left: 4%;
+    box-shadow: 5px 5px 40px gray;
     border-radius: 5px;
-
+}
+.exp-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+}
+#exp-web{
+    border-left:solid 6px;
+    border-image: linear-gradient(orange red);
+    border-image-slice: 1;
+}
+#exp-pro{
+    border-left:solid black 6px;
+    border-image: linear-gradient(blue skyblue);
+    border-image-slice: 1;
 }
