@@ -41,8 +41,6 @@ body{
 .exp{
     text-align: center;
     font-size: 30px;
-    border-radius: 5px;
-    background-image: linear-gradient(blue to skyblue);
 }
 .fvs-exp h3{
     font-size: 35px;
@@ -55,7 +53,7 @@ body{
     padding: 2%;
     margin-left: 4%;
     box-shadow: 5px 5px 40px gray;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .exp-section{
     background-image: url(images/exp-bg.png);
@@ -63,12 +61,12 @@ body{
     background-position: 0% 85%;
 }
 #exp-web{
-    border-left:solid 6px;
-    border-image: linear-gradient(orange red);
+    border-left: 6px solid;
+    border-image: linear-gradient(orange, orangered);
     border-image-slice: 1;
 }
 #exp-pro{
-    border-left:solid black 6px;
-    border-image: linear-gradient(blue skyblue);
+    border-left: 6px solid;
+    border-image: linear-gradient(blue,skyblue);
     border-image-slice: 1;
 }
